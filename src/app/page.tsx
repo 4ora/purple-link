@@ -11,8 +11,9 @@ export default function Home() {
       </header>
 
       {/* Main Intro (Extremely minimal typography) */}
-      <div className="flex-1 flex items-center justify-center -mt-10">
-        <div className="max-w-md w-full text-center md:text-left">
+      <div className="flex-1 flex items-center justify-center -mt-10 w-full">
+        {/* Responsive profile card/container */}
+        <div className="w-full p-4 md:w-[80%] md:max-w-[480px] lg:w-[400px] lg:max-w-none text-center md:text-left">
           <h1 className="text-base font-normal mb-6 uppercase tracking-wider">
             조보라
           </h1>
