@@ -24,14 +24,10 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Bottom Footer (Replicating PAF's characteristic staff names footer) */}
+      {/* Bottom Footer */}
       <footer className="text-[11px] leading-snug md:text-xs">
-        <p className="mb-4 text-justify opacity-80 break-words md:break-normal">
-          Dongjoon Lim Sookyo Jeong Jun Jegal Eunyoung Choi Sangsu Lee Dowon Ahn Moonyoung Kim Jincheol Shin Geonhu Park Juwon Jung Jaehyeon Park Taeyoung Lim Yoosung Kim Seungwoo Woo Sumin Jeon Kyuli Kim Seungmin Lee Wonjung Woo Victoria Ohanyan Hanseul Nam Jiwan Kim Joohwan Lee Sookyeong Han Jo Bora
-        </p>
-        <div className="flex flex-col md:flex-row justify-between pt-2 border-t border-black/10">
-          <span className="mb-1 md:mb-0">POST ARCHIVE FACTION (PAF)</span>
-          <span>© 2026 POST ARCHIVE FACTION (PAF)</span>
+        <div className="pt-2 border-t border-black/10">
+          <span>Bora Jo (BRJ)</span>
         </div>
       </footer>
 
