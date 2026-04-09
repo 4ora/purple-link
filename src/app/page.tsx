@@ -5,14 +5,9 @@ export default function Home() {
       {/* Top Nav (Replicating PAF's sparse, unstyled link aesthetic) */}
       <header className="flex justify-between items-start">
         <nav className="flex flex-col space-y-1">
-          <a href="#" className="hover:underline">Shop</a>
           <a href="#" className="hover:underline">Archive</a>
           <a href="#" className="hover:underline">Contact</a>
         </nav>
-        <div className="text-right flex flex-col items-end space-y-1">
-          <a href="#" className="hover:underline">Sign in</a>
-          <a href="#" className="hover:underline">Account</a>
-        </div>
       </header>
 
       {/* Main Intro (Extremely minimal typography) */}
